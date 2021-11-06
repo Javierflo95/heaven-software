@@ -81,7 +81,6 @@ h6 {
         display: none;
     }
 }
-/*url("../img/portada.jpeg") top center*/
 #principal {
     width: 100%;
     height: 100vh;
@@ -90,7 +89,7 @@ h6 {
     position: relative;
     margin-bottom: -90px;
 }
-#principal .principal-container {
+#principal .contenedor-principal {
     background: rgba(104, 186, 224, 0.5);
     position: absolute;
     bottom: 0;
@@ -143,6 +142,71 @@ section {
 
 .seccion-titulo p {
     margin-bottom: 0;
+}
+
+/* servicios Section
+--------------------------------*/
+#servicios {
+    background: #fff;
+    padding: 60px 0;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+#servicios .item {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+#servicios .item .item-info {
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: 0.2s;
+}
+#servicios .item .item-info-content {
+    margin-top: 50px;
+    transition: margin 0.2s;
+}
+#servicios .item:hover .item-info {
+    background: rgba(0, 62, 128, 0.7);
+    opacity: 1;
+    transition: 0.4s;
+}
+#servicios .item:hover .item-info-content {
+    margin-top: 0;
+    transition: margin 0.4s;
+}
+#servicios .item h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: #fff;
+}
+#servicios .item span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+    color: #fff;
+}
+#servicios .item .social {
+    margin-top: 15px;
+}
+#servicios .item .social a {
+    transition: 0.3s;
+    color: rgba(121, 65, 65, 0.7);
+}
+#servicios .item .social a:hover {
+    color: #fff;
+}
+#servicios .item .social i {
+    font-size: 18px;
+    margin: 0 2px;
 }
 
 .emprendimiento {
@@ -203,63 +267,6 @@ section {
     color: #848484;
 }
 
-.servicios .icon-box {
-    padding: 30px;
-    position: relative;
-    overflow: hidden;
-    background: #fff;
-    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
-    transition: all 0.3s ease-in-out;
-    border-radius: 8px;
-    z-index: 1;
-}
-.servicios .icon-box::before {
-    content: "";
-    position: absolute;
-    background: white;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    top: 100%;
-    transition: all 0.3s;
-    z-index: -1;
-}
-.servicios .icon-box:hover::before {
-    background: #2480d6;
-    opacity: 10px;
-    top: 0;
-    border-radius: 0px;
-}
-.servicios .icon {
-    margin-bottom: 15px;
-}
-.servicios .icon i {
-    font-size: 48px;
-    line-height: 1;
-    color: #67b0d1;
-    transition: all 0.3s ease-in-out;
-}
-.servicios .title {
-    font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 18px;
-}
-.servicios .title a {
-    color: #111;
-}
-.servicios .description {
-    font-size: 15px;
-    line-height: 28px;
-    margin-bottom: 0;
-}
-.servicios .icon-box:hover .title a,
-.servicios .icon-box:hover .description {
-    color: #fff;
-}
-.servicios .icon-box:hover .icon i {
-    color: #fff;
-}
-
 .tecnologias .icon-box {
     box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
     padding: 50px 30px;
@@ -293,51 +300,6 @@ section {
 }
 .tecnologias .icon-box:hover h4 a {
     color: #47b2e4;
-}
-
-/*--------------------------------------------------------------
-# Counts
---------------------------------------------------------------*/
-.counts {
-    padding-bottom: 30px;
-}
-.counts .count-box {
-    padding: 30px;
-    width: 100%;
-}
-.counts .count-box i {
-    display: block;
-    font-size: 44px;
-    color: #67b0d1;
-    float: left;
-    line-height: 0;
-}
-.counts .count-box span {
-    font-size: 48px;
-    line-height: 40px;
-    display: block;
-    font-weight: 700;
-    color: #2f4d5a;
-    margin-left: 60px;
-}
-.counts .count-box p {
-    padding: 15px 0 0 0;
-    margin: 0 0 0 60px;
-    font-family: "Raleway", sans-serif;
-    font-size: 14px;
-    color: #49788c;
-}
-.counts .count-box a {
-    font-weight: 600;
-    display: block;
-    margin-top: 20px;
-    color: #49788c;
-    font-size: 15px;
-    font-family: "Poppins", sans-serif;
-    transition: ease-in-out 0.3s;
-}
-.counts .count-box a:hover {
-    color: #6e9fb4;
 }
 
 /* contactos Section
@@ -452,9 +414,6 @@ section {
     background: #92d283;
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
 #footer {
     background: #263f49;
     padding: 0 0 30px 0;
