@@ -28,7 +28,7 @@ h6 {
 
 #header {
     padding: 24px 0;
-    background: rgba(103, 176, 209, 0.8);
+    background: transparent;
 }
 #header .logo img {
     padding: 0;
@@ -67,7 +67,7 @@ h6 {
 .navbar a:focus i {
     font-size: 12px;
     line-height: 0;
-    margin-left: 5px;
+    margin-left: 500px;
 }
 .navbar a:hover,
 .navbar .active,
