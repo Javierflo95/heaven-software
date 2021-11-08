@@ -188,6 +188,25 @@ section {
     text-align: center;
     margin: 0 0 0 10px;
 }
+
+#servicios .item .item-info .item-info-content .item-servicio-3 {
+    font-family: "Myriad Pro Bold";
+    margin-top: 50px;
+    color: #ffffff;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#servicios .item .item-info .item-info-content .parrafo-servicio-3 {
+    font-family: "Myriad Pro Regular";
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 0 0 10px;
+}
+
 #servicios .item .social {
     margin-top: 15px;
 }
