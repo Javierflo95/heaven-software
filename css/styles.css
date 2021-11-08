@@ -271,26 +271,33 @@ section {
     margin: auto;
 }
 
-.tecnologias .seccion-1 h4 {
-    font-weight: 500;
-    margin-bottom: 15px;
-    font-size: 24px;
-}
-.tecnologias .seccion-1 h4 a {
-    color: #37517e;
-    transition: ease-in-out 0.3s;
-}
 .tecnologias .seccion-1 p {
-    line-height: 24px;
-    font-size: 14px;
-    margin-bottom: 0;
+    font-family: "Myriad Pro Regular";
+    text-align: center;
+    color: #395999;
+    margin-bottom: 15px;
+    font-size: 20px;
+    margin-left: 2px;
+    line-height: 30px;
+
 }
-.tecnologias .icon-box:hover {
-    transform: translateY(-10px);
+.tecnologias .seccion-1 .react{
+    margin-top: 55px;
 }
-.tecnologias .seccion-1:hover h4 a {
-    color: #47b2e4;
+.tecnologias .seccion-1 .azure{
+    margin-top: 33px;
 }
+.tecnologias .seccion-1 p a {
+    color: #395999;
+   
+}
+.tecnologias .seccion-1 p a:hover{
+    color:#0ac6ee;
+}
+.tecnologias .seccion-1 .link-xamarin{
+    margin-top: 80px;
+}
+
 
 /* contactos Section
 --------------------------------*/
@@ -418,5 +425,52 @@ section {
 @media (max-width: 575px) {
     #footer .footer-top .footer-info {
         margin: -20px 0 30px 0;
+    }
+
+    #header .logo {
+        margin-left: 18px;
+    }
+
+    #header .logo img {
+        height: 60px;
+    }
+
+    #principal {
+        width: 100%;
+        height: 197vh;
+    }
+    #principal h1 {
+        margin: 0 0 10px 107px;
+        font-size: 22px;
+        line-height: 40px;
+    }
+    #principal p {
+        font-size: 15px;
+        margin: 4px 0 3px 7px;
+        line-height: 15px;
+    }
+
+    #principal p:nth-of-type(2) {
+        font-size: 15px;
+        margin: 4px 0 3px 27px;
+        line-height: 15px;
+    }
+
+    .emprendimiento img {
+        margin-left: 22px;
+    }
+    .emprendimiento .content h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .emprendimiento .content {
+        margin-left: 14px;
+        text-align: center;
+    }
+
+    .emprendimiento .content p {
+        margin-right: 13px;
+        font-size: 14px;
     }
 }
