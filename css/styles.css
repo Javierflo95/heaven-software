@@ -98,9 +98,6 @@ section {
     overflow: hidden;
 }
 
-.section-grande {
-    background-color: #f4f9fc;
-}
 
 .seccion-titulo {
     text-align: center;
@@ -194,8 +191,12 @@ section {
     background-size: cover;
     padding: 60px 0;
     position: relative;
+    background-color:#526685;
 }
+.emprendimiento img{
+    border-radius:80%;
 
+}
 .emprendimiento .container {
     position: relative;
     z-index: 10;
@@ -212,66 +213,31 @@ section {
 .emprendimiento .content p {
     margin-bottom: 30px;
 }
-.emprendimiento .content .about-btn {
-    display: inline-block;
-    background: #67b0d1;
-    padding: 6px 44px 8px 30px;
-    color: #fff;
-    border-radius: 50px;
-    transition: 0.3s;
-    position: relative;
-}
-.emprendimiento .content .about-btn i {
-    font-size: 18px;
-    position: absolute;
-    right: 18px;
-    top: 9px;
-}
-.emprendimiento .content .about-btn:hover {
-    background: #7bbad7;
-}
-.emprendimiento .icon-boxes .icon-box {
-    margin-top: 30px;
-}
-.emprendimiento .icon-boxes .icon-box i {
-    font-size: 40px;
-    color: #67b0d1;
-    margin-bottom: 10px;
-}
-.emprendimiento .icon-boxes .icon-box h4 {
-    font-size: 20px;
-    font-weight: 700;
-    margin: 0 0 10px 0;
-}
-.emprendimiento .icon-boxes .icon-box p {
-    font-size: 15px;
-    color: #848484;
+
+.tecnologias{
+    background-color: white;
 }
 
-.tecnologias .icon-box {
-    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+.tecnologias .seccion-1 {
     padding: 50px 30px;
     transition: all ease-in-out 0.4s;
-    background: #fff;
 }
-.tecnologias .icon-box .icon {
-    margin-bottom: 10px;
+
+.tecnologias .seccion-1 img{
+    display:block;
+    margin:auto;
 }
-.tecnologias .icon-box .icon i {
-    color: #47b2e4;
-    font-size: 36px;
-    transition: 0.3s;
-}
-.tecnologias .icon-box h4 {
+
+.tecnologias .seccion-1 h4 {
     font-weight: 500;
     margin-bottom: 15px;
     font-size: 24px;
 }
-.tecnologias .icon-box h4 a {
+.tecnologias .seccion-1 h4 a {
     color: #37517e;
     transition: ease-in-out 0.3s;
 }
-.tecnologias .icon-box p {
+.tecnologias .seccion-1 p {
     line-height: 24px;
     font-size: 14px;
     margin-bottom: 0;
@@ -279,7 +245,7 @@ section {
 .tecnologias .icon-box:hover {
     transform: translateY(-10px);
 }
-.tecnologias .icon-box:hover h4 a {
+.tecnologias .seccion-1:hover h4 a {
     color: #47b2e4;
 }
 
