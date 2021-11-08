@@ -10,18 +10,18 @@ body {
     padding: 24px 0;
     background: transparent;
 }
-#header .logo{
-  margin-left:150px;
-  margin-top:19px;
-    }
+#header .logo {
+    margin-left: 150px;
+    margin-top: 19px;
+}
 
 #header .logo img {
     padding: 0;
     margin: 0;
     height: 100px;
 }
-.nav-link:hover{
-    color:#aeadad;
+.nav-link:hover {
+    color: #aeadad;
 }
 
 .barra-nav {
@@ -43,8 +43,8 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 8px 16px;
-    margin-left: 10px; 
-    font-family:'Myriad Pro Regular';
+    margin-left: 10px;
+    font-family: "Myriad Pro Regular";
     font-size: 20px;
     color: rgb(255, 255, 255);
 }
@@ -55,7 +55,7 @@ body {
     }
 }
 #principal {
-    width:1518px;
+    width: 1518px;
     height: 1000px;
     background-image: url("../img/portada.jpg");
     background-size: cover;
@@ -64,9 +64,9 @@ body {
 }
 #principal .contenedor-principal {
     background: rgb(69, 104, 130);
-    opacity:85%;
+    opacity: 85%;
     position: absolute;
-    bottom:85px;
+    bottom: 85px;
     top: 1;
     left: 0;
     right: 0;
@@ -79,14 +79,14 @@ body {
 }
 #principal h1 {
     margin: 40px 0 10px 259px;
-    font-family:'Myriad Pro Bold';
+    font-family: "Myriad Pro Bold";
     font-size: 36px;
     line-height: 80px;
     color: #ffffff;
 }
 #principal p {
     color: #ffffff;
-    font-family:'Myriad Pro Regular';
+    font-family: "Myriad Pro Regular";
     margin-bottom: 50px;
     line-height: 0px;
     font-size: 30px;
@@ -98,14 +98,13 @@ section {
     overflow: hidden;
 }
 
-
 .seccion-titulo {
     text-align: center;
     padding-bottom: 30px;
 }
 .seccion-titulo h2 {
     font-size: 36px;
-    font-family:'Myriad Pro Bold';
+    font-family: "Myriad Pro Bold";
     position: relative;
     margin-bottom: 30px;
     color: #1b1e3f;
@@ -143,34 +142,51 @@ section {
 #servicios .item .item-info-content {
     margin-top: 50px;
     transition: margin 0.2s;
-
 }
-#servicios .item .item-info-content p{
+#servicios .item .item-info-content p {
     margin-left: 45px;
     margin-right: 50px;
 }
 
 #servicios .item:hover .item-info {
-    background: rgba(69, 104, 130,0.7);
-    opacity:1;
+    background: rgba(69, 104, 130, 0.7);
+    opacity: 1;
     transition: 0.4s;
 }
 #servicios .item:hover .item-info-content {
     margin-top: 0;
     transition: margin 0.4s;
 }
-#servicios .item h4 {
-    font-family:'Myriad Pro Bold';
+#servicios .item .item-info .item-info-content .item-servicio-1 {
+    font-family: "Myriad Pro Bold";
     margin-bottom: 2px;
     color: #ffffff;
     line-height: 89px;
 }
-#servicios .item p {
-    font-family:'Myriad Pro Regular';
+
+#servicios .item .item-info .item-info-content .parrafo-servicio-1 {
+    font-family: "Myriad Pro Regular";
     display: block;
     font-size: 20px;
     color: #ffffff;
     text-align: center;
+}
+#servicios .item .item-info .item-info-content .item-servicio-2 {
+    font-family: "Myriad Pro Bold";
+    margin-top: 50px;
+    color: #ffffff;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#servicios .item .item-info .item-info-content .parrafo-servicio-2 {
+    font-family: "Myriad Pro Regular";
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 0 0 10px;
 }
 #servicios .item .social {
     margin-top: 15px;
@@ -191,11 +207,10 @@ section {
     background-size: cover;
     padding: 60px 0;
     position: relative;
-    background-color:#526685;
+    background-color: #526685;
 }
-.emprendimiento img{
-    border-radius:80%;
-
+.emprendimiento img {
+    border-radius: 80%;
 }
 .emprendimiento .container {
     position: relative;
@@ -214,7 +229,7 @@ section {
     margin-bottom: 30px;
 }
 
-.tecnologias{
+.tecnologias {
     background-color: white;
 }
 
@@ -223,9 +238,9 @@ section {
     transition: all ease-in-out 0.4s;
 }
 
-.tecnologias .seccion-1 img{
-    display:block;
-    margin:auto;
+.tecnologias .seccion-1 img {
+    display: block;
+    margin: auto;
 }
 
 .tecnologias .seccion-1 h4 {
