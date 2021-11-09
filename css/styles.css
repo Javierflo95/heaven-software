@@ -598,27 +598,34 @@ section {
 }
 
 .emprendimiento img {
-        height: 400px;
-        margin-left: 148px;
+        height: 202px;
+        width: 202px;
+        margin-left: 246px;
 }
-    .emprendimiento .content h3 {
-        margin-left: 264px;
-        font-size: 30px;
+.emprendimiento .content {
+    margin: 0;
+}
+.emprendimiento .content h3 {
+        margin-left: 234px;
+        font-size: 20px;
     }
-    .emprendimiento .content h5 {
-        margin-left: 360px;
+.emprendimiento .content h5 {
+        margin-left: 278px;
         font-size: 24px;
     }
-    .emprendimiento .content p {
-        margin: 0 0 20px 130px;
-        font-size: 24px;
+.emprendimiento .content p {
+        margin: 0 0 0 13px;
+        font-size: 15px;
     }
-    #servicios .row div:nth-of-type(3) {
+.emprendimiento .content p:nth-of-type(2) {
+        color: red;
+    }
+#servicios .row div:nth-of-type(3) {
         margin-left: 190px;
     }
 
     .seccion-titulo-emprendimiento h2 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     #contactos .info p {
