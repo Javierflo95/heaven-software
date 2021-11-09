@@ -297,15 +297,36 @@ section {
 .tecnologias .seccion-1 .link-xamarin{
     margin-top: 80px;
 }
-
-
-/* contactos Section
---------------------------------*/
-#contactos {
-    background: #fff;
+.tecnologias .seccion-1 .link-asp{
+    margin-top: 5px;
 }
-#contactos .info {
-    color: #222;
+.tecnologias .seccion-1 .link-c{
+    margin-top: 47px;
+}
+.tecnologias .seccion-1 .link-html{
+    margin-top: 41px;
+}
+.tecnologias .seccion-1 .link-react{
+    margin-top: 73px;
+}
+.tecnologias .seccion-1 .link-azure{
+ margin-top: 75px;   
+}
+#contactos {
+    background: #526685;
+}
+.seccion-titulo-contactos h2 {
+    font-size: 36px;
+    font-family: "Myriad Pro Bold";
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#contactos .info  {
+   margin-top: 50px;
 }
 #contactos .info i {
     font-size: 32px;
@@ -314,10 +335,12 @@ section {
     line-height: 0;
 }
 #contactos .info p {
-    padding: 0 0 10px 50px;
-    margin-bottom: 20px;
-    line-height: 22px;
-    font-size: 14px;
+    padding: 0 0 0 40px;
+    margin-bottom: 10px;
+    line-height: 50px;
+    font-size: 22px;
+    font-family: "Myriad Pro Regular";
+    color: #ffffff;
 }
 #contactos .info .email p {
     padding-top: 5px;
@@ -325,22 +348,55 @@ section {
 #contactos .link-redes {
     padding: 20px 0;
 }
-#contactos .link-redes a {
-    font-size: 18px;
-    display: inline-block;
-    background: #71c55d;
-    color: #fff;
-    line-height: 1;
-    padding: 6px 0 8px 0;
-    border-radius: 50%;
-    text-align: center;
-    width: 36px;
-    height: 36px;
-    transition: 0.3s;
+
+#contactos .redes-sociales{
+     font-family: "Myriad Pro Regular";
+     font-size: 22px;
+     line-height: 30px;
+     text-align: left;
+     color: #ffffff;
 }
-#contactos .link-redes a:hover {
-    background: #55b03f;
-    color: #fff;
+
+#contactos .email-formulario .nombre{
+    color: #ffffff;
+    font-family:"Myriad Pro Semibold";
+    font-size: 22px;
+    text-align: left;
+  padding-bottom: 10px;
+}
+#contactos .email-formulario .correo{
+    color: #ffffff;
+    font-family:"Myriad Pro Semibold";
+    font-size: 22px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+#contactos .email-formulario .mensaje{
+    color: #ffffff;
+    font-family:"Myriad Pro Semibold";
+    font-size: 22px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+#contactos .email-formulario input{
+    background-color: #869bdb;
+    border: none;
+    color: #ffffff;
+    font-family: "Myriad Pro Regular";
+    font-size: 22px;
+    text-align: left;
+}
+#contactos .email-formulario textarea{
+    background-color: #869bdb;
+    border: none;
+    color: #ffffff;
+    font-family: "Myriad Pro Regular";
+    font-size: 22px;
+    text-align: left;
+    height: 300px;
+}
+#contactos .email-formulario{
+    margin-left: 10px;
 }
 #contactos .email-formulario .validate {
     display: none;
@@ -401,14 +457,19 @@ section {
     padding: 12px 15px;
 }
 #contactos .email-formulario button {
-    background: #71c55d;
+    background: #869bdb;
+    font-family: "Myriad Pro Bold";
+    font-size: 22px;
     border: 0;
     padding: 10px 24px;
-    color: #fff;
-    border-radius: 30px;
+    color: #ffffff;
+    border-radius: 20px;
+    width: 176px;
+    height: 53px;
+    
 }
 #contactos .email-formulario button:hover {
-    background: #92d283;
+    background: #0d1d62;
 }
 
 #footer {

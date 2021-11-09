@@ -141,7 +141,7 @@
                   Herramienta multiplataforma 
                   para el desarrollo de aplicaciones.
                 </p>
-                <p class="link-xamarin"><a href="">Más Información></a></p>
+                <p class="link-xamarin"><a target="_blank" href="https://dotnet.microsoft.com/apps/xamarin">Más Información></a></p>
               </div>
             </div>
 
@@ -150,13 +150,13 @@
             >
               <div class="seccion-1">
                 <img src="./img/asp.jpg" class="asp-img"> </img>
-                <p>
+                <p class="link-asp">
                  Tecnología que ayuda 
                  a la creación de páginas web, 
                  basada en patrones de diseño y 
                  soportado por Microsoft.
                 </p>
-                <p><a href="">Más Información></a></p>
+                <p><a target="_blank" href="https://dotnet.microsoft.com/apps/aspnet">Más Información></a></p>
               </div>
             </div>
 
@@ -170,7 +170,7 @@
                   (IDE), herramienta que proporciona 
                   servicios para la programación. 
                 </p>
-                <p><a href="">Más Información></a></p>
+                <p><a target="_blank" href="https://visualstudio.microsoft.com/es/">Más Información></a></p>
               </div>
             </div>
 
@@ -183,7 +183,7 @@
                   permite crear aplicaciones
                   y páginas web de alto nivel.
                 </p>
-                <p><a href="">Más Información></a></p>
+                <p class="link-c"><a target="_blank" href="https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/">Más Información></a></p>
               </div>
             </div>
           </div>
@@ -199,7 +199,7 @@
                   hipertexto, base fundamental 
                   para la creación de páginas web. 
                 </p>
-                <p><a href="">Más Información></a></p>
+                <p class="link-html"><a target="_blank" href="https://developer.mozilla.org/es/docs/Glossary/HTML5">Más Información></a></p>
               </div>
             </div>
 
@@ -211,7 +211,7 @@
                   Librería de JavaScript de 
                   código abierto.
                 </p>
-                <p><a href="">Más Información></a></p>
+                <p class="link-react"><a target="_blank" href="https://es.reactjs.org/">Más Información></a></p>
               </div>
             </div>
 
@@ -225,7 +225,7 @@
                  entre aplicaciones, con bastante
                  flexibilidad para el desarrollo.
                 </p>
-                <p><a href="">Más Información></a></p>
+                <p><a target="_blank" href="https://restfulapi.net/">Más Información></a></p>
               </div>
             </div>
 
@@ -237,91 +237,84 @@
                    Servicio de computación en 
                    la nube creado por Microsoft.
                 </p>
-                <p><a href="">Más Información></a></p>
+                <p class="link-azure"><a target="_blank" href="https://azure.microsoft.com/es-es/">Más Información></a></p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- End Tecnologías Section -->
-      <!-- ======= contactos Section ======= -->
+    
       <section id="contactos" class="padd-section">
         <div class="container" data-aos="fade-up">
-          <div class="seccion-titulo text-center">
-            <h2>contactos</h2>
-            <p class="separator">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque
-            </p>
+          <div class="seccion-titulo-contactos">
+            <h2>Contáctanos</h2>
           </div>
 
-          <div class="row justify-content-center">
-            <div class="col-lg-3 col-md-4">
+          <div class="row">
+            <div class="col-lg-6 col-md-4">
               <div class="info">
                 <div>
                   <i class="direccion"></i>
-                  <p>A108 Adam Street<br />New York, NY 535022</p>
+                  <img src="./img/ubicacion.png">
+                  <p>Cll 17 S # 6 - 22. Ofi 712 . Mosquera</p>
                 </div>
 
                 <div class="email">
-                  <p>info@example.com</p>
+                  <img src="./img/correo.png">
+                  <p>contacto@heavensoftware.com.co</p>
                 </div>
 
                 <div>
                   <i class="telefono"></i>
-                  <p>+57 314 406 5669</p>
+                  <img src="./img/telefono.png">
+                  <p>+57 3144065669</p>
                 </div>
               </div>
+              <p class="redes-sociales">Síguenos en: </p>
 
               <div class="link-redes">
-                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"
-                  ><i class="bi bi-instagram"></i
-                ></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <a href="#" class="instagram"><img src="./img/instagram.png" class="icon-instagram"></i></a>
+                <a href="#" class="facebook"><img src="./img/facebook.png"></i></a>
               </div>
             </div>
 
-            <div class="col-lg-5 col-md-8">
+            <div class="col-lg-6 col-md-8">
               <div class="form">
                 <form action="/" role="form" class="email-formulario">
-                  <div class="form-group">
+                  <div class="row">
+                    <div class="form-group col-md-6">
+                      <label class="form-label nombre">
+                        Nombre:
+                      </label>
                     <input
                       type="text"
                       name="name"
                       class="form-control"
                       id="name"
-                      placeholder="Your Name"
                       required
                     />
                   </div>
-                  <div class="form-group mt-3">
+                  <div class="form-group col-md-6">
+                     <label class="form-label correo">
+                        Correo:
+                      </label>
                     <input
                       type="email"
                       class="form-control"
                       name="email"
                       id="email"
-                      placeholder="Your Email"
                       required
                     />
                   </div>
-                  <div class="form-group mt-3">
-                    <input
-                      type="text"
-                      class="form-control"
-                      name="subject"
-                      id="subject"
-                      placeholder="Subject"
-                      required
-                    />
                   </div>
                   <div class="form-group mt-3">
+                    <label class="form-label mensaje">
+                        Mensaje:
+                      </label>
                     <textarea
                       class="form-control"
                       name="message"
                       rows="5"
-                      placeholder="Message"
                       required
                     ></textarea>
                   </div>
@@ -333,7 +326,7 @@
                     </div>
                   </div>
                   <div class="text-center">
-                    <button type="submit">Send Message</button>
+                    <button class="float-end" type="submit">Enviar</button>
                   </div>
                 </form>
               </div>
