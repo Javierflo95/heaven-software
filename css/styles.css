@@ -262,7 +262,7 @@ section {
 }
 
 .tecnologias .seccion-1 {
-    padding: 50px 30px;
+    padding: 50px 0;
     transition: all ease-in-out 0.4s;
 }
 
@@ -549,6 +549,9 @@ section {
 
     .emprendimiento .content p {
         margin-right: 13px;
+        font-size: 14px;
+    }
+    #contactos .info p {
         font-size: 14px;
     }
 }
