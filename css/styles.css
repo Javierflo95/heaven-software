@@ -328,6 +328,10 @@ section {
 #contactos .info  {
    margin-top: 50px;
 }
+#contactos .info img {
+    float: left;
+    margin-right: 10px;
+}
 #contactos .info i {
     font-size: 32px;
     color: #71c55d;
@@ -348,6 +352,10 @@ section {
 #contactos .link-redes {
     padding: 20px 0;
 }
+#contactos .link-redes .facebook{
+    margin-right: 10px;
+}
+
 
 #contactos .redes-sociales{
      font-family: "Myriad Pro Regular";
@@ -476,11 +484,13 @@ section {
     background: #263f49;
     padding: 0 0 30px 0;
     color: #fff;
-    font-size: 14px;
+    font-family: "Myriad Pro Regular";
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
 }
 #footer .copyright {
     border-top: 1px solid #385b6b;
-    text-align: center;
     padding-top: 30px;
 }
 @media(max-width: 768px){
