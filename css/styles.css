@@ -64,7 +64,7 @@ body {
 }
 #principal .contenedor-principal {
     background: rgb(69, 104, 130);
-    opacity: 85%;
+    opacity: 90%;
     position: absolute;
     bottom: 85px;
     top: 1;
@@ -149,7 +149,7 @@ section {
 }
 
 #servicios .item:hover .item-info {
-    background: rgba(69, 104, 130, 0.7);
+    background: rgba(69, 104, 130, 0.9);
     opacity: 1;
     transition: 0.4s;
 }
@@ -281,11 +281,9 @@ section {
     line-height: 30px;
 
 }
-.tecnologias .seccion-1 .react{
-    margin-top: 55px;
-}
+
 .tecnologias .seccion-1 .azure{
-    margin-top: 33px;
+    margin-top: 77px;
 }
 .tecnologias .seccion-1 p a {
     color: #395999;
@@ -298,10 +296,25 @@ section {
     margin-top: 80px;
 }
 .tecnologias .seccion-1 .link-asp{
-    margin-top: 5px;
+    margin-top: 0;
+}
+.tecnologias .seccion-1 .link-visual{
+    margin-top: 0;
+}
+.tecnologias .seccion-1 .visual-a {
+    margin-top: 50px;
+}
+.tecnologias .seccion-1 .asp-a{
+    margin-top: 23px;
 }
 .tecnologias .seccion-1 .link-c{
-    margin-top: 47px;
+    margin-top: 0;
+}
+.tecnologias .seccion-1 .csharp-a{
+    margin-top: 50px;
+}
+.tecnologias .seccion-1 .html-p {
+    margin-top: 50px;
 }
 .tecnologias .seccion-1 .link-html{
     margin-top: 41px;
@@ -309,8 +322,20 @@ section {
 .tecnologias .seccion-1 .link-react{
     margin-top: 73px;
 }
+.tecnologias .seccion-1 .react-p {
+    margin-top: 103px;
+}
+.tecnologias .seccion-1 .rest-p {
+    margin-top: 46px;
+}
+.tecnologias .seccion-1 .link-rest {
+    margin-top: 17px;
+}
 .tecnologias .seccion-1 .link-azure{
  margin-top: 75px;   
+}
+.tecnologias .seccion-1 .azure-p {
+    margin-top: 50px;
 }
 #contactos {
     background: #526685;
@@ -326,7 +351,7 @@ section {
 }
 
 #contactos .info  {
-   margin-top: 50px;
+   margin-top: 70px;
 }
 #contactos .info img {
     float: left;
@@ -363,6 +388,7 @@ section {
      line-height: 30px;
      text-align: left;
      color: #ffffff;
+     margin-top: 54px;
 }
 
 #contactos .email-formulario .nombre{
@@ -481,18 +507,25 @@ section {
 }
 
 #footer {
-    background: #263f49;
-    padding: 0 0 30px 0;
-    color: #fff;
+    background-image: url("../img/footer.jpg");
+    color: #ffffff;
     font-family: "Myriad Pro Regular";
     font-size: 18px;
     line-height: 30px;
     text-align: center;
 }
+
+#footer .contenedor-footer{
+ background-color: rgb(69, 104, 130);
+    opacity: 90%;
+    height: 100px;
+}
+
 #footer .copyright {
     border-top: 1px solid #385b6b;
     padding-top: 30px;
 }
+
 @media(max-width: 768px){
  #principal {
         width: 100%;
