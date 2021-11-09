@@ -528,11 +528,11 @@ section {
 
 @media (max-width: 768px) {
     #principal {
-        
         background-image: url("../img/portada_768.jpg");
         background-size: auto;
         background-repeat: no-repeat;
         width: 768px;
+        margin-bottom: -526px;
     }
     #header .logo {  
     margin-left: 70px;
@@ -543,14 +543,6 @@ section {
     height: 100px;
 }
 #principal .contenedor-principal {
-    background: rgb(69, 104, 130);
-    opacity: 90%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    text-align: center;
     height: 126px;
     margin-bottom:400px ;
 }
@@ -576,10 +568,39 @@ section {
     color: #ffffff;
     text-align: left;
 }
-    .emprendimiento img {
+#servicios .item .item-info {
+     
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#servicios .item .item-info .item-info-content .item-servicio-1{
+    font-size: 20px;
+}
+#servicios .item .item-info .item-info-content .parrafo-servicio-1{
+    font-size: 15px;
+}
+
+#servicios .item .item-info .item-info-content .item-servicio-2{
+    font-size: 20px;
+}
+#servicios .item .item-info .item-info-content .parrafo-servicio-2{
+    font-size: 15px;
+    margin: 0;
+}
+
+#servicios .item .item-info .item-info-content .item-servicio-3{
+    font-size: 20px;
+}
+#servicios .item .item-info .item-info-content .parrafo-servicio-3{
+    font-size: 15px;
+    margin: 0;
+}
+
+.emprendimiento img {
         height: 400px;
         margin-left: 148px;
-    }
+}
     .emprendimiento .content h3 {
         margin-left: 264px;
         font-size: 30px;
