@@ -567,26 +567,58 @@ section {
 
     #servicios .item .item-info .item-info-content .item-servicio-1 {
         font-size: 20px;
+        line-height: 40px;
     }
     #servicios .item .item-info .item-info-content .parrafo-servicio-1 {
         font-size: 15px;
+        line-height: 26px;
+
     }
 
     #servicios .item .item-info .item-info-content .item-servicio-2 {
         font-size: 20px;
+        margin-top: 10px;
     }
     #servicios .item .item-info .item-info-content .parrafo-servicio-2 {
         font-size: 15px;
         margin: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+
     }
 
     #servicios .item .item-info .item-info-content .item-servicio-3 {
         font-size: 20px;
+        line-height: 28px;
+        margin-top: 26px;
+        
     }
     #servicios .item .item-info .item-info-content .parrafo-servicio-3 {
         font-size: 15px;
-        margin: 0;
+        line-height: 22px;
+        padding-left: 21px;
+        padding-right: 21px;
+        text-align: center;
     }
+    .tecnologias .seccion-1 .asp-a {
+    margin-top: 51px;
+    }
+    .tecnologias .seccion-1 .link-c {
+    margin-top: 1px;
+    }
+    .tecnologias .seccion-1 .react-p {
+    margin-top: 105px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    }
+    .tecnologias .seccion-1 .link-react {
+    margin-top: 70px;
+    }
+    .tecnologias .seccion-1 .link-rest {
+    margin-top: 45px;
+}
 
     .emprendimiento img {
         height: 202px;
@@ -602,7 +634,7 @@ section {
     }
     .emprendimiento .content h5 {
         margin-left: 278px;
-        font-size: 24px;
+        font-size: 15px;
     }
     .emprendimiento .content p {
         text-align: center;
@@ -649,9 +681,23 @@ section {
         font-size: 15px;
         line-height: 42px;
     }
-
-    .tecnologias .seccion-1 .link-react {
-        margin-top: 104px;
+    #contactos .redes-sociales{
+        font-size: 15px;
+    }
+    #contactos .email-formulario .nombre {
+    font-size: 20px;
+    }
+    #contactos .email-formulario .correo {
+    font-size: 20px;
+    }
+    #contactos .email-formulario .mensaje {
+    font-size: 20px;
+    }
+    #contactos .email-formulario button {
+    font-size: 20px;
+    }
+    #footer {
+    font-size: 12px;
     }
 }
 @media (max-width: 576px) {
