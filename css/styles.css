@@ -219,7 +219,6 @@ section {
 }
 .emprendimiento .container {
     position: relative;
-  
 }
 .emprendimiento .content {
     margin: 0 0 0 -100px;
@@ -235,9 +234,6 @@ section {
     font-size: 22px;
     color: #ffffff;
     margin-bottom: 30px;
-
-
-
 }
 .emprendimiento .content p {
     margin-bottom: 30px;
@@ -279,47 +275,45 @@ section {
     font-size: 20px;
     margin-left: 2px;
     line-height: 30px;
-
 }
 
-.tecnologias .seccion-1 .azure{
+.tecnologias .seccion-1 .azure {
     margin-top: 77px;
 }
 .tecnologias .seccion-1 p a {
     color: #395999;
-   
 }
-.tecnologias .seccion-1 p a:hover{
-    color:#0ac6ee;
+.tecnologias .seccion-1 p a:hover {
+    color: #0ac6ee;
 }
-.tecnologias .seccion-1 .link-xamarin{
+.tecnologias .seccion-1 .link-xamarin {
     margin-top: 80px;
 }
-.tecnologias .seccion-1 .link-asp{
+.tecnologias .seccion-1 .link-asp {
     margin-top: 0;
 }
-.tecnologias .seccion-1 .link-visual{
+.tecnologias .seccion-1 .link-visual {
     margin-top: 0;
 }
 .tecnologias .seccion-1 .visual-a {
     margin-top: 50px;
 }
-.tecnologias .seccion-1 .asp-a{
+.tecnologias .seccion-1 .asp-a {
     margin-top: 23px;
 }
-.tecnologias .seccion-1 .link-c{
+.tecnologias .seccion-1 .link-c {
     margin-top: 0;
 }
-.tecnologias .seccion-1 .csharp-a{
+.tecnologias .seccion-1 .csharp-a {
     margin-top: 50px;
 }
 .tecnologias .seccion-1 .html-p {
     margin-top: 50px;
 }
-.tecnologias .seccion-1 .link-html{
+.tecnologias .seccion-1 .link-html {
     margin-top: 41px;
 }
-.tecnologias .seccion-1 .link-react{
+.tecnologias .seccion-1 .link-react {
     margin-top: 73px;
 }
 .tecnologias .seccion-1 .react-p {
@@ -331,8 +325,8 @@ section {
 .tecnologias .seccion-1 .link-rest {
     margin-top: 17px;
 }
-.tecnologias .seccion-1 .link-azure{
- margin-top: 75px;   
+.tecnologias .seccion-1 .link-azure {
+    margin-top: 75px;
 }
 .tecnologias .seccion-1 .azure-p {
     margin-top: 50px;
@@ -350,8 +344,8 @@ section {
     text-align: center;
 }
 
-#contactos .info  {
-   margin-top: 70px;
+#contactos .info {
+    margin-top: 70px;
 }
 #contactos .info img {
     float: left;
@@ -377,42 +371,41 @@ section {
 #contactos .link-redes {
     padding: 20px 0;
 }
-#contactos .link-redes .facebook{
+#contactos .link-redes .facebook {
     margin-right: 10px;
 }
 
-
-#contactos .redes-sociales{
-     font-family: "Myriad Pro Regular";
-     font-size: 22px;
-     line-height: 30px;
-     text-align: left;
-     color: #ffffff;
-     margin-top: 54px;
-}
-
-#contactos .email-formulario .nombre{
-    color: #ffffff;
-    font-family:"Myriad Pro Semibold";
+#contactos .redes-sociales {
+    font-family: "Myriad Pro Regular";
     font-size: 22px;
+    line-height: 30px;
     text-align: left;
-  padding-bottom: 10px;
-}
-#contactos .email-formulario .correo{
     color: #ffffff;
-    font-family:"Myriad Pro Semibold";
+    margin-top: 54px;
+}
+
+#contactos .email-formulario .nombre {
+    color: #ffffff;
+    font-family: "Myriad Pro Semibold";
     font-size: 22px;
     text-align: left;
     padding-bottom: 10px;
 }
-#contactos .email-formulario .mensaje{
+#contactos .email-formulario .correo {
     color: #ffffff;
-    font-family:"Myriad Pro Semibold";
+    font-family: "Myriad Pro Semibold";
     font-size: 22px;
     text-align: left;
     padding-bottom: 10px;
 }
-#contactos .email-formulario input{
+#contactos .email-formulario .mensaje {
+    color: #ffffff;
+    font-family: "Myriad Pro Semibold";
+    font-size: 22px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+#contactos .email-formulario input {
     background-color: #869bdb;
     border: none;
     color: #ffffff;
@@ -420,7 +413,7 @@ section {
     font-size: 22px;
     text-align: left;
 }
-#contactos .email-formulario textarea{
+#contactos .email-formulario textarea {
     background-color: #869bdb;
     border: none;
     color: #ffffff;
@@ -429,7 +422,7 @@ section {
     text-align: left;
     height: 300px;
 }
-#contactos .email-formulario{
+#contactos .email-formulario {
     margin-left: 10px;
 }
 #contactos .email-formulario .validate {
@@ -500,7 +493,6 @@ section {
     border-radius: 20px;
     width: 176px;
     height: 53px;
-    
 }
 #contactos .email-formulario button:hover {
     background: #0d1d62;
@@ -515,8 +507,8 @@ section {
     text-align: center;
 }
 
-#footer .contenedor-footer{
- background-color: rgb(69, 104, 130);
+#footer .contenedor-footer {
+    background-color: rgb(69, 104, 130);
     opacity: 90%;
     height: 100px;
 }
@@ -534,18 +526,18 @@ section {
         width: 768px;
         margin-bottom: -526px;
     }
-    #header .logo {  
-    margin-left: 70px;
-}
+    #header .logo {
+        margin-left: 70px;
+    }
     #header .logo img {
-    padding: 0;
-    margin: 0;
-    height: 100px;
-}
-#principal .contenedor-principal {
-    height: 126px;
-    margin-bottom:400px ;
-}
+        padding: 0;
+        margin: 0;
+        height: 100px;
+    }
+    #principal .contenedor-principal {
+        height: 126px;
+        margin-bottom: 400px;
+    }
     #principal p {
         font-family: "Myriad Pro Regular";
         font-size: 22px;
@@ -561,66 +553,66 @@ section {
         text-align: left;
     }
     #principal h1 {
-    margin: 0 0 0 50px;
-    font-family: "Myriad Pro Bold";
-    font-size: 24px;
-    line-height: 50px;
-    color: #ffffff;
-    text-align: left;
-}
-#servicios .item .item-info {
-     
-    margin-left: 0;
-    margin-right: 0;
-}
+        margin: 0 0 0 50px;
+        font-family: "Myriad Pro Bold";
+        font-size: 24px;
+        line-height: 50px;
+        color: #ffffff;
+        text-align: left;
+    }
+    #servicios .item .item-info {
+        margin-left: 0;
+        margin-right: 0;
+    }
 
-#servicios .item .item-info .item-info-content .item-servicio-1{
-    font-size: 20px;
-}
-#servicios .item .item-info .item-info-content .parrafo-servicio-1{
-    font-size: 15px;
-}
+    #servicios .item .item-info .item-info-content .item-servicio-1 {
+        font-size: 20px;
+    }
+    #servicios .item .item-info .item-info-content .parrafo-servicio-1 {
+        font-size: 15px;
+    }
 
-#servicios .item .item-info .item-info-content .item-servicio-2{
-    font-size: 20px;
-}
-#servicios .item .item-info .item-info-content .parrafo-servicio-2{
-    font-size: 15px;
-    margin: 0;
-}
+    #servicios .item .item-info .item-info-content .item-servicio-2 {
+        font-size: 20px;
+    }
+    #servicios .item .item-info .item-info-content .parrafo-servicio-2 {
+        font-size: 15px;
+        margin: 0;
+    }
 
-#servicios .item .item-info .item-info-content .item-servicio-3{
-    font-size: 20px;
-}
-#servicios .item .item-info .item-info-content .parrafo-servicio-3{
-    font-size: 15px;
-    margin: 0;
-}
+    #servicios .item .item-info .item-info-content .item-servicio-3 {
+        font-size: 20px;
+    }
+    #servicios .item .item-info .item-info-content .parrafo-servicio-3 {
+        font-size: 15px;
+        margin: 0;
+    }
 
-.emprendimiento img {
+    .emprendimiento img {
         height: 202px;
         width: 202px;
         margin-left: 246px;
-}
-.emprendimiento .content {
-    margin: 0;
-}
-.emprendimiento .content h3 {
+    }
+    .emprendimiento .content {
+        margin: 0;
+    }
+    .emprendimiento .content h3 {
         margin-left: 234px;
         font-size: 20px;
     }
-.emprendimiento .content h5 {
+    .emprendimiento .content h5 {
         margin-left: 278px;
         font-size: 24px;
     }
-.emprendimiento .content p {
-        margin: 0 0 0 13px;
+    .emprendimiento .content p {
+        text-align: center;
+        margin: auto;
         font-size: 15px;
     }
-.emprendimiento .content p:nth-of-type(2) {
-        color: red;
+    .emprendimiento .content p:nth-of-type(2) {
+        text-align: center;
     }
-#servicios .row div:nth-of-type(3) {
+    #servicios .row div:nth-of-type(3) {
         margin-left: 190px;
     }
 
@@ -628,11 +620,40 @@ section {
         font-size: 30px;
     }
 
+    #contactos .info img {
+        float: left;
+        margin: 9px;
+        height: 26px;
+        width: 26px;
+    }
+
+    #contactos .redes-sociales {
+        margin: 0 0 6px 14px;
+    }
+
+    #contactos .link-redes {
+        margin: 13px;
+        padding: 0;
+    }
+
+    #contactos .link-redes img {
+        height: 26px;
+        width: 26px;
+    }
+
+    #contactos .email-formulario {
+        margin: 0;
+    }
+
     #contactos .info p {
         font-size: 15px;
+        line-height: 42px;
+    }
+
+    .tecnologias .seccion-1 .link-react {
+        margin-top: 104px;
     }
 }
-
 @media (max-width: 576px) {
     #footer .footer-top .footer-info {
         margin: -20px 0 30px 0;
