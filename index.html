@@ -7,37 +7,26 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
     <link href="fonts/style.css" rel="stylesheet" type="text/css" charset="utf-8" />
+    <link href="bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>
   </head>
   <body>
-    <header id="header" class="fixed-top">
+    <header id="header" class="fixed-top header-transparent">
       <div class="container d-flex align-items-center justify-content-between">
         <div class="logo">
-          <a href="index.html"
-            ><img src="img/logo.png" alt="" class="img-fluid"
-          /></a>
+          <a href="index.html"><img src="./img/logo.png" alt="" class="img-fluid"></a>
         </div>
-
-        <nav id="barra-nav" class="barra-nav">
+        <nav id="navbar" class="navbar">
           <ul>
+            <li><a class="nav-link scrollto" href="#principal">Inicio</a></li>
+            <li><a class="nav-link scrollto" href="#contenedor-principal">Quiénes Somos</a></li>
+            <li><a class="nav-link scrollto" href="#servicios">Servicios</a></li>
             <li>
-              <a class="nav-link active" href="#principal">Inicio</a>
+              <a class="nav-link scrollto" href="#emprendimiento">Emprendimiento</a>
             </li>
-             <li>
-              <a class="nav-link" href="#principal">Quiénes Somos</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#servicios">Servicios</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#emprendimiento">Emprendimiento</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#tecnologias">Nuestra Tecnología</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#contactos">Contáctanos</a>
-            </li>
+            <li><a class="nav-link scrollto" href="#tecnologias">Nuestra Tecnología</a></li>
+            <li><a class="nav-link scrollto" href="#contactos">Contáctanos</a></li>
           </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
       </div>
     </header>
@@ -346,5 +335,6 @@
     </div>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
