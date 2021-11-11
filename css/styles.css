@@ -14,7 +14,7 @@ body {
 }
 
 #header.header-scrolled {
-    background: rgb(69, 104, 130);
+    background: #526685;
     padding: 12px;
 }
 
@@ -893,8 +893,8 @@ section {
     }
 
     .seccion-titulo {
-    padding-bottom: 0;
-}
+        padding-bottom: 0;
+    }
     .tecnologias .seccion-1 {
         padding: 0 100px 0;
     }
