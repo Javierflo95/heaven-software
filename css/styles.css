@@ -613,12 +613,21 @@ section {
         height: 126px;
         margin-bottom: 400px;
     }
+    #principal h1 {
+    margin: -10px 0 0 50px;
+    font-family: "Myriad Pro Bold";
+    font-size: 24px;
+    line-height: 80px;
+    text-align: left;
+    color: #ffffff;
+    }
     #principal p {
         font-family: "Myriad Pro Regular";
         font-size: 22px;
-        margin: 0 0 0 50px;
+        margin: -20px 0 0 50px;
         text-align: left;
-        line-height: 30px;
+        line-height: 25px;
+
     }
     #principal p:nth-of-type(2) {
         font-family: "Myriad Pro Regular";
@@ -627,14 +636,7 @@ section {
         line-height: 30px;
         text-align: left;
     }
-    #principal h1 {
-        margin: 0 0 0 50px;
-        font-family: "Myriad Pro Bold";
-        font-size: 24px;
-        line-height: 50px;
-        color: #ffffff;
-        text-align: left;
-    }
+
     #servicios .item .item-info {
         margin-left: 0;
         margin-right: 0;
@@ -776,12 +778,20 @@ section {
     }
 }
 @media (max-width: 576px) {
+    #principal {
+        background-image: url("../img/portada_576.jpg");
+         background-size: auto;
+        background-repeat: no-repeat;        
+    }
+    #servicios{
+    padding: 400px 0 0 0
+    }
     #footer .footer-top .footer-info {
         margin: -20px 0 30px 0;
     }
 
     #header .logo {
-        margin-left: 18px;
+        margin-left: 5px;
     }
 
     #header .logo img {
@@ -793,30 +803,71 @@ section {
         height: 601px;
     }
     #principal h1 {
-        margin: 0 0 10px 107px;
+        margin: -10px 0 0 224px;
         font-size: 22px;
         line-height: 40px;
+        font-family: "Myriad Pro Bold";
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+        color: #ffffff;
     }
     #principal p {
-        font-size: 15px;
-        margin: 4px 0 3px 7px;
-        line-height: 15px;
+        font-size: 20px;
+        margin: 10px 0 3px 50px;
+        line-height: 10px;
+        text-align: center;
     }
 
     #principal p:nth-of-type(2) {
-        font-size: 15px;
-        margin: 4px 0 3px 27px;
-        line-height: 15px;
+        font-size: 20px;
+        margin: 15px 0 3px 70px;
+        line-height: 10px;
+        text-align: center;
     }
     #principal .contenedor-principal {
-        height: 178px;
+        height: 126px;
+        margin-bottom:65px;
+    }
+    #servicios .seccion-titulo h2{
+        font-size: 22px;
+        font-family: "Myriad Pro Bold";
+        text-align: center;
+        margin: -30px 0 0 10px;
+    }
+    #servicios .item .item-info .item-info-content .item-servicio-1 {
+    font-size: 18px;
     }
 
+    #servicios .item .item-info .item-info-content .parrafo-servicio-1 {
+    font-size: 14px;
+    }
+    #servicios .item .item-info .item-info-content .item-servicio-2 {
+    font-size: 18px;
+    }
+
+    #servicios .item .item-info .item-info-content .parrafo-servicio-2 {
+    font-size: 14px;
+    }
+
+    #servicios .item .item-info .item-info-content .item-servicio-3 {
+    font-size: 18px;
+    }
+
+    #servicios .item .item-info .item-info-content .parrafo-servicio-3 {
+    font-size: 14px;
+    }
+    #servicios .row div:nth-of-type(3) {
+    margin-left: 0;
+    }
     .emprendimiento img {
         margin-left: 22px;
     }
+    .seccion-titulo-emprendimiento h2 {
+    font-size: 22px;
+    }
     .emprendimiento .content h3 {
-        font-size: 18px;
+        font-size: 22px;
         text-align: center;
     }
 
@@ -829,7 +880,40 @@ section {
         margin-right: 13px;
         font-size: 14px;
     }
+    .emprendimiento img {
+    margin-left: 160px;
+    }
+    .tecnologias .seccion-titulo h2 {
+    font-size: 22px;
+    }
+    .seccion-titulo-contactos h2{
+    font-size: 22px;
+    }
+    .tecnologias .seccion-1 p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    }
     #contactos .info p {
-        font-size: 14px;
+        font-size: 15px;
+        line-height: 42px;
+    }
+    #contactos .redes-sociales{
+        font-size: 15px;
+    }
+    #contactos .email-formulario .nombre {
+    font-size: 18px;
+    }
+    #contactos .email-formulario .correo {
+    font-size: 18px;
+    }
+    #contactos .email-formulario .mensaje {
+    font-size: 18px;
+    }
+    #contactos .email-formulario button {
+    font-size: 18px;
+    }
+    #footer {
+    font-size: 10px;
     }
 }
