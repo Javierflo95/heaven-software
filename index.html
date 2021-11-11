@@ -7,18 +7,18 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
     <link href="fonts/style.css" rel="stylesheet" type="text/css" charset="utf-8" />
-    <link href="bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>
-  </head>
+    <link href="bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/></head>
   <body>
     <header id="header" class="fixed-top header-transparent">
       <div class="container d-flex align-items-center justify-content-between">
         <div class="logo">
           <a href="index.html"><img src="./img/logo.png" alt="" class="img-fluid"></a>
         </div>
+
         <nav id="navbar" class="navbar">
           <ul>
             <li><a class="nav-link scrollto" href="#principal">Inicio</a></li>
-            <li><a class="nav-link scrollto" href="#quienes_somos">Quiénes Somos</a></li>
+            <li><a class="nav-link scrollto" href="#contenedor-principal">Quiénes Somos</a></li>
             <li><a class="nav-link scrollto" href="#servicios">Servicios</a></li>
             <li>
               <a class="nav-link scrollto" href="#emprendimiento">Emprendimiento</a>
@@ -31,7 +31,7 @@
       </div>
     </header>
     <section id="principal">
-      <div id="quienes_somos"class="contenedor-principal">
+      <div id="contenedor-principal" class="contenedor-principal">
         <h1>Quiénes Somos</h1>
         <p>
           Somos una compañía que brinda soluciones en la nube 
@@ -116,7 +116,7 @@
       </section>
 
       <section id="tecnologias" class="tecnologias">
-        <div class="container" data-aos="fade-up">
+        <div class="container">
           <div class="seccion-titulo">
             <h2>Tecnologías</h2>
           </div>
@@ -126,7 +126,7 @@
               class="col-xl-3 col-md-6 d-flex align-items-stretch">
               <div class="seccion-1">
                 <img src="./img/xamarin.jpg" class="xamarin-img"> </img>
-                <p>
+                <p class="xamarin-p">
                   Herramienta multiplataforma 
                   para el desarrollo de aplicaciones.
                 </p>
@@ -234,12 +234,12 @@
       </section>
     
       <section id="contactos" class="padd-section">
-        <div class="container" data-aos="fade-up">
+        <div class="container">
           <div class="seccion-titulo-contactos">
             <h2>Contáctanos</h2>
           </div>
 
-          <div class="row">
+          <div class="row contactos-formulario">
             <div class="col-lg-6 col-md-6">
               <div class="info">
                 <div>
@@ -315,7 +315,7 @@
                     </div>
                   </div>
                   <div class="text-center">
-                    <button id="enviar" class="float-end" type="submit">Enviar</button>
+                    <button class="float-end" type="submit">Enviar</button>
                   </div>
                 </form>
               </div>
@@ -334,7 +334,6 @@
       </footer>
     </div>
     <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
