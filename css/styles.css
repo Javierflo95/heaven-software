@@ -892,8 +892,11 @@ section {
         font-size: 22px;
     }
 
+    .seccion-titulo {
+    padding-bottom: 0;
+}
     .tecnologias .seccion-1 {
-        padding: 50px 100px 0;
+        padding: 0 100px 0;
     }
     .tecnologias .seccion-1 p {
         text-align: center;
