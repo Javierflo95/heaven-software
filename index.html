@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title>Heaven Software</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
     <link href="fonts/style.css" rel="stylesheet" type="text/css" charset="utf-8" />
@@ -269,7 +270,7 @@
 
             <div class="col-lg-6 col-md-6">
               <div class="form">
-                <form action="mailto:contacto@heavensoftware.com.co" role="form" class="email-formulario">
+                <form id="email-formulario" action="/" role="form" class="email-formulario">
                   <div class="row">
                     <div class="form-group col-md-6">
                       <label class="form-label nombre">
@@ -302,7 +303,8 @@
                       </label>
                     <textarea
                       class="form-control"
-                      name="message"
+                      name="mensaje"
+                      id="mensaje"
                       rows="5"
                       required
                     ></textarea>
@@ -315,7 +317,7 @@
                     </div>
                   </div>
                   <div class="text-center">
-                    <button class="float-end" type="submit">Enviar</button>
+                    <button id="enviar" class="float-end" type="submit">Enviar</button>
                   </div>
                 </form>
               </div>
@@ -335,5 +337,6 @@
     </div>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
