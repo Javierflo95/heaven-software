@@ -337,6 +337,8 @@ section {
 .tecnologias .seccion-1 img {
     display: block;
     margin: auto;
+    width: 190px;
+    height:170px
 }
 
 .tecnologias .seccion-1 p {
@@ -350,7 +352,7 @@ section {
 }
 
 .tecnologias .seccion-1 .azure {
-    margin-top: 77px;
+    margin-top: 47px;
 }
 .tecnologias .seccion-1 p a {
     color: #395999;
@@ -389,10 +391,10 @@ section {
     margin-top: 73px;
 }
 .tecnologias .seccion-1 .react-p {
-    margin-top: 103px;
+    margin-top: 54px;
 }
 .tecnologias .seccion-1 .rest-p {
-    margin-top: 46px;
+    margin-top: 47px;
 }
 .tecnologias .seccion-1 .link-rest {
     margin-top: 17px;
@@ -590,6 +592,7 @@ section {
     padding-top: 30px;
 }
 
+
 @media (max-width: 768px) {
     #principal {
         background-image: url("../img/portada_768.jpg");
@@ -678,7 +681,7 @@ section {
         margin-top: 1px;
     }
     .tecnologias .seccion-1 .react-p {
-        margin-top: 105px;
+        margin-top: 52px;
         padding-left: 40px;
         padding-right: 40px;
     }
@@ -769,7 +772,8 @@ section {
         font-size: 12px;
     }
 }
-@media (max-width: 576px) {
+
+@media (max-width: 576px) and (min-width: 320px) {
     #principal {
         background-image: url("../img/portada_576.jpg");
         background-size: auto;
