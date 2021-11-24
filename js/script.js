@@ -9,7 +9,7 @@ formulario.addEventListener("submit", function (e) {
     e.preventDefault();
   }
   else {
-    alert("Enviando correo a -> " + name + "\n "+ email + " con el siguiente mensaje \n ______ \n  " + mensaje);
+    alert("Enviando correo de -> " + name + "\n "+ email + " con el siguiente mensaje \n ____ \n  " + mensaje);
     alert("Mensaje enviado exitosamente.");
     e.preventDefault();
     window.open("mailto:contacto@heavensoftware.com.co?subject="+ name + "&body=" + mensaje);
