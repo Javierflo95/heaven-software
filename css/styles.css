@@ -337,6 +337,11 @@ section {
 .tecnologias .seccion-1 img {
     display: block;
     margin: auto;
+<<<<<<< HEAD
+=======
+    width: 200px;
+    height:170px
+>>>>>>> 13ad2c7c0239095d870e44ac534d97e012f26222
 }
 
 .tecnologias .seccion-1 p {
