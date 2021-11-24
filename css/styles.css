@@ -26,7 +26,7 @@ body {
 #header .logo img {
     padding: 0;
     margin: 0;
-    height: 72px;
+    height: 100px;
 }
 
 @media (max-width: 768px) {
@@ -330,15 +330,13 @@ section {
 }
 
 .tecnologias .seccion-1 {
-    padding: 50px 0;
+    padding: 9px 0;
     transition: all ease-in-out 0.4s;
 }
 
 .tecnologias .seccion-1 img {
     display: block;
     margin: auto;
-    width: 190px;
-    height:170px
 }
 
 .tecnologias .seccion-1 p {
@@ -346,7 +344,7 @@ section {
     text-align: center;
     color: #395999;
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 2px;
     line-height: 30px;
 }
@@ -361,7 +359,7 @@ section {
     color: #0ac6ee;
 }
 .tecnologias .seccion-1 .link-xamarin {
-    margin-top: 80px;
+    margin-top: 81px;
 }
 .tecnologias .seccion-1 .link-asp {
     margin-top: 0;
@@ -373,7 +371,7 @@ section {
     margin-top: 50px;
 }
 .tecnologias .seccion-1 .asp-a {
-    margin-top: 23px;
+    margin-top: 51px;
 }
 .tecnologias .seccion-1 .link-c {
     margin-top: 0;
@@ -388,16 +386,16 @@ section {
     margin-top: 41px;
 }
 .tecnologias .seccion-1 .link-react {
-    margin-top: 73px;
+    margin-top: 101px;
 }
 .tecnologias .seccion-1 .react-p {
-    margin-top: 54px;
+    margin-top: 51px;
 }
 .tecnologias .seccion-1 .rest-p {
     margin-top: 47px;
 }
 .tecnologias .seccion-1 .link-rest {
-    margin-top: 17px;
+    margin-top: 45px;
 }
 .tecnologias .seccion-1 .link-azure {
     margin-top: 75px;
@@ -606,8 +604,8 @@ section {
     }
     #header .logo img {
         padding: 0;
-        margin: 0;
-        height: 50px;
+        margin-left: 33px;
+        height: 85px;
     }
     #principal .contenedor-principal {
         height: 126px;
@@ -635,7 +633,9 @@ section {
         line-height: 30px;
         text-align: left;
     }
-
+    .seccion-titulo h2 {
+    font-size: 30px;
+    }
     #servicios .item .item-info {
         margin-left: 0;
         margin-right: 0;
@@ -674,6 +674,10 @@ section {
         padding-right: 21px;
         text-align: center;
     }
+    .tecnologias .seccion-1 p {
+    font-size: 15px;
+    
+}
     .tecnologias .seccion-1 .asp-a {
         margin-top: 51px;
     }
@@ -723,7 +727,9 @@ section {
     .seccion-titulo-emprendimiento h2 {
         font-size: 30px;
     }
-
+    .seccion-titulo-contactos h2 {
+        font-size: 30px;
+    }
     #contactos .info img {
         float: left;
         margin: 9px;
@@ -791,7 +797,8 @@ section {
     }
 
     #header .logo img {
-        height: 60px;
+        height: 90px;
+        margin-left: 1px;
     }
 
     #principal {
@@ -829,7 +836,7 @@ section {
         font-size: 22px;
         font-family: "Myriad Pro Bold";
         text-align: center;
-        margin: -30px 0 0 10px;
+        margin: -30px 0 32px 10px;
     }
 
     #servicios .item .item-info {
