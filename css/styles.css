@@ -126,10 +126,17 @@ body {
     margin: 15px;
 }
 
+/********************************
+ * 
+ *  DESKTOP
+ * 
+ * *******************************/
+
 #principal {
-    width: 1518px;
-    height: 1000px;
-    background-image: url("../img/portada.jpg");
+    width: 100%;
+    height: 100vh;
+    background: url("../img/portada.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     margin-bottom: -90px;
@@ -166,13 +173,14 @@ body {
 }
 
 section {
-    padding: 60px 0;
+    padding: 0 0;
     overflow: hidden;
 }
 
 .seccion-titulo {
     text-align: center;
     padding-bottom: 30px;
+    padding-top: 22px;
 }
 .seccion-titulo h2 {
     font-size: 36px;
@@ -188,7 +196,6 @@ section {
 
 #servicios {
     background: #ffffff;
-    padding: 60px 0;
 }
 #servicios .item {
     text-align: center;
@@ -337,11 +344,6 @@ section {
 .tecnologias .seccion-1 img {
     display: block;
     margin: auto;
-<<<<<<< HEAD
-=======
-    width: 200px;
-    height:170px
->>>>>>> 13ad2c7c0239095d870e44ac534d97e012f26222
 }
 
 .tecnologias .seccion-1 p {
@@ -410,6 +412,7 @@ section {
 }
 #contactos {
     background: #526685;
+    padding-top: 22px;
 }
 .seccion-titulo-contactos h2 {
     font-size: 36px;
@@ -595,8 +598,13 @@ section {
     padding-top: 30px;
 }
 
+/********************************
+ * 
+ *  TABLETS devices (max-width: 820px) and (min-width: 578px) 
+ * 
+ * *******************************/
 
-@media (max-width: 768px) {
+@media (max-width: 820px) and (min-width: 578px) {
     #principal {
         background-image: url("../img/portada_768.jpg");
         background-size: auto;
@@ -639,7 +647,7 @@ section {
         text-align: left;
     }
     .seccion-titulo h2 {
-    font-size: 30px;
+        font-size: 30px;
     }
     #servicios .item .item-info {
         margin-left: 0;
@@ -680,9 +688,8 @@ section {
         text-align: center;
     }
     .tecnologias .seccion-1 p {
-    font-size: 15px;
-    
-}
+        font-size: 15px;
+    }
     .tecnologias .seccion-1 .asp-a {
         margin-top: 51px;
     }
@@ -784,14 +791,18 @@ section {
     }
 }
 
+/********************************
+ * 
+ *  MOBILE devices
+ * 
+ * *******************************/
+
 @media (max-width: 576px) and (min-width: 320px) {
     #principal {
         background-image: url("../img/portada_576.jpg");
         background-size: auto;
         background-repeat: no-repeat;
-    }
-    #servicios {
-        padding: 400px 0 0 0;
+        height: 542px;
     }
     #footer .footer-top .footer-info {
         margin: -20px 0 30px 0;
@@ -806,14 +817,8 @@ section {
         margin-left: 1px;
     }
 
-    #principal {
-        width: 100%;
-        height: 601px;
-    }
     #principal h1 {
-        margin: -10px 0 0 224px;
-        font-size: 22px;
-        line-height: 40px;
+        margin: 0 0 0 108px;
         font-family: "Myriad Pro Bold";
         font-size: 22px;
         line-height: 30px;
@@ -821,32 +826,31 @@ section {
         color: #ffffff;
     }
     #principal p {
-        font-size: 20px;
-        margin: 10px 0 3px 50px;
+        font-size: 14px;
+        margin: 10px 0 0 18px;
         line-height: 10px;
         text-align: center;
     }
 
     #principal p:nth-of-type(2) {
-        font-size: 20px;
-        margin: 15px 0 3px 70px;
+        font-size: 14px;
+        margin: 15px 0 3px 42px;
         line-height: 10px;
         text-align: center;
     }
     #principal .contenedor-principal {
         height: 126px;
-        margin-bottom: 65px;
+        margin-bottom: 18px;
     }
     #servicios .seccion-titulo h2 {
         font-size: 22px;
         font-family: "Myriad Pro Bold";
         text-align: center;
-        margin: -30px 0 32px 10px;
     }
 
     #servicios .item .item-info {
-        margin-left: 64px;
-        margin-right: 65px;
+        margin-left: 0;
+        margin-right: 0;
     }
     #servicios .item .item-info .item-info-content .item-servicio-1 {
         font-size: 18px;
@@ -889,6 +893,7 @@ section {
     }
     .emprendimiento .content {
         text-align: center;
+        margin: auto;
     }
 
     .emprendimiento .content p {
@@ -899,7 +904,7 @@ section {
     }
 
     .emprendimiento img {
-        margin-left: 160px;
+        margin: auto;
     }
     .tecnologias .seccion-titulo h2 {
         font-size: 22px;
@@ -912,7 +917,7 @@ section {
         padding-bottom: 0;
     }
     .tecnologias .seccion-1 {
-        padding: 0 100px 0;
+        padding: 0;
     }
     .tecnologias .seccion-1 p {
         text-align: center;
@@ -927,7 +932,7 @@ section {
     }
 
     .tecnologias .seccion-1 .react-p {
-        margin: 0 29px 0 44px;
+        margin: 0 92px 0 90px;
     }
     .tecnologias .seccion-1 .link-react {
         margin-top: 15px;
