@@ -8,7 +8,19 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
     <link href="fonts/style.css" rel="stylesheet" type="text/css" charset="utf-8" />
-    <link href="bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/></head>
+    <link href="bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T7FT9CQR1M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T7FT9CQR1M');
+</script>
+    
+    </head>
   <body>
     <header id="header" class="fixed-top header-transparent">
       <div class="container d-flex align-items-center justify-content-between">
@@ -278,8 +290,6 @@
                       </label>
                     <input
                       type="text"
-                      pattern="[a-zA-Z]+"
-                      title="Ingresar sólo letras"
                       name="name"
                       class="form-control"
                       id="name"
