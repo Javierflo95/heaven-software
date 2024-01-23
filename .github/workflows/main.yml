@@ -20,7 +20,7 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         port: ${{ secrets.FTP_PORT }}
-        server-dir: /home/heavenso/public_html/
+        server-dir: /public_html/
       
   
   
